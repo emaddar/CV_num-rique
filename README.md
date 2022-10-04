@@ -1,6 +1,6 @@
 
 # Emad DARWICH CV digital
-Un site Web de CV numérique construit sur la base du contenu de mon CV personnel
+Un site Web de CV numérique construit sur la base du contenu de mon [CV](./assets/Emad%20DARWICH%20CV%20V2.pdf) personnel
 
 Voir la démo en direct ici en utilisant les github pages : [Demo](https://emaddar.github.io/CV_num-rique/)
 

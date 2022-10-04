@@ -22,14 +22,14 @@
     --programeBgColor1-light : rgb(134, 230, 158);
     /* --programColor-light:#0da2b8; */
     
-    --mainTextColor:var(--mainTextColor-light);
-    --secondaryTextColor:var(--secondaryTextColor-light);
-    --mainLinkColor:var(--mainLinkColor-light);
-    --mainBorderColor:var(--mainBorderColor-light);
-    --mainBgColor:var(--mainBgColor-light);
-    --programTextColor:var(--programTextColor-light);
-    --programeBgColor:var(--programeBgColor-light);
-    --programeBgColor1:var(--programeBgColor1-light);
+    --mainTextColor:var(--mainTextColor-dark);
+    --secondaryTextColor:var(--secondaryTextColor-dark);
+    --mainLinkColor:var(--mainLinkColor-dark);
+    --mainBorderColor:var(--mainBorderColor-dark);
+    --mainBgColor:var(--mainBgColor-dark);
+    --programTextColor:var(--programTextColor-dark);
+    --programeBgColor:var(--programeBgColor-dark);
+    --programeBgColor1:var(--programeBgColor1-dark);
 
 }
 

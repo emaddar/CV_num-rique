@@ -12,12 +12,20 @@
     --mainLinkColor-dark:rgb(30, 190,214);
     --mainBorderColor-dark:#2b3031;
     --mainBgColor-dark:#131415;
+
+
+    --programTextColor-dark: #fff;
+    --programeBgColor-dark : rgb(82, 8, 100);
+    /* --programColor-light:#0da2b8; */
     
     --mainTextColor:var(--mainTextColor-dark);
     --secondaryTextColor:var(--secondaryTextColor-dark);
     --mainLinkColor:var(--mainLinkColor-dark);
     --mainBorderColor:var(--mainBorderColor-dark);
     --mainBgColor:var(--mainBgColor-dark);
+
+    --programTextColor:var(--programTextColor-dark);
+    --programeBgColor:var(--programeBgColor-dark);
 
 }
 
@@ -29,6 +37,12 @@
     color: var(--mainTextColor);
     
 }
+
+
+ li:not(:last-child) {  /* set vertical space between list items */
+    margin-bottom: 15px;
+}
+
 
 body{
     background-color: var(--mainBgColor);            
@@ -70,14 +84,14 @@ li{
     font-weight: 300;
 }
 
-#user-name{
-    font-size: 48px;
+#username{
+    font-size: 50px;
     line-height: 1em;
 }
 
 #profile-pic{
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -97,7 +111,7 @@ li{
     font-weight: 300;
     color: var(--secondaryTextColor);
     font-size: 0.9em;
-    transition: 0.3s;
+    transition: 0.3s; 
 }
 
 #socials--list a:hover{
@@ -106,9 +120,9 @@ li{
     font-size: 0.9em;
 }
 
-#qualifications--list{
+/* #qualifications--list{
     list-style: none;
-}
+} */
 
 #wrapper--techstack__items{
     display: flex;
@@ -118,10 +132,11 @@ li{
 }
 
 .card--techstack{
-    border: 1px solid var(--mainBorderColor);
+    border: 2px solid var(--mainBorderColor);
     border-radius: 5px;
-    padding: 0.5em 1em;
+    padding: 0.5em 0.2em;
     align-items: center;
+    background-color: var(--programeBgColor);
 }
 
 .card--project{

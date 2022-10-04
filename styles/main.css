@@ -17,17 +17,19 @@
     --programTextColor-dark: #fff;
     --programeBgColor-dark : rgb(82, 8, 100);
     --programeBgColor1-dark : rgb(3, 97, 114);
+    --programTextColor-light: #000;
+    --programeBgColor-light : rgb(104, 174, 231);
+    --programeBgColor1-light : rgb(134, 230, 158);
     /* --programColor-light:#0da2b8; */
     
-    --mainTextColor:var(--mainTextColor-dark);
-    --secondaryTextColor:var(--secondaryTextColor-dark);
-    --mainLinkColor:var(--mainLinkColor-dark);
-    --mainBorderColor:var(--mainBorderColor-dark);
-    --mainBgColor:var(--mainBgColor-dark);
-
-    --programTextColor:var(--programTextColor-dark);
-    --programeBgColor:var(--programeBgColor-dark);
-    --programeBgColor1:var(--programeBgColor1-dark);
+    --mainTextColor:var(--mainTextColor-light);
+    --secondaryTextColor:var(--secondaryTextColor-light);
+    --mainLinkColor:var(--mainLinkColor-light);
+    --mainBorderColor:var(--mainBorderColor-light);
+    --mainBgColor:var(--mainBgColor-light);
+    --programTextColor:var(--programTextColor-light);
+    --programeBgColor:var(--programeBgColor-light);
+    --programeBgColor1:var(--programeBgColor1-light);
 
 }
 
@@ -126,14 +128,14 @@ li{
 #socials--list a{
     font-weight: 300;
     color: var(--secondaryTextColor);
-    font-size: 0.9em;
+    font-size: 1.2em;
     transition: 0.3s; 
 }
 
 #socials--list a:hover{
     font-weight: 100;
     color: var(--mainLinkColor);
-    font-size: 0.9em;
+    font-size: 1.2em;
 }
 
 /* #qualifications--list{

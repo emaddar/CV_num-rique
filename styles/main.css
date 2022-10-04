@@ -16,6 +16,7 @@
 
     --programTextColor-dark: #fff;
     --programeBgColor-dark : rgb(82, 8, 100);
+    --programeBgColor1-dark : rgb(3, 97, 114);
     /* --programColor-light:#0da2b8; */
     
     --mainTextColor:var(--mainTextColor-dark);
@@ -26,6 +27,7 @@
 
     --programTextColor:var(--programTextColor-dark);
     --programeBgColor:var(--programeBgColor-dark);
+    --programeBgColor1:var(--programeBgColor1-dark);
 
 }
 
@@ -34,8 +36,7 @@
     font-family: 'Readex Pro';
     line-height: 1.5em;
     box-sizing: border-box;
-    color: var(--mainTextColor);
-    
+    color: var(--mainTextColor);  
 }
 
 
@@ -63,8 +64,23 @@ li{
     line-height: 1.9em;
 }
 
+
+.titre--t1{
+    font-size: 20px;
+    text-align:center;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.titre--t2{
+    font-size: 18px;
+    text-align:center;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
 #container--main{
-    max-width: 700px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 1em;
 }
@@ -139,6 +155,14 @@ li{
     background-color: var(--programeBgColor);
 }
 
+.card--techstack1{
+    border: 2px solid var(--mainBorderColor);
+    border-radius: 5px;
+    padding: 0.5em 0.2em;
+    align-items: center;
+    background-color: var(--programeBgColor1);
+}
+
 .card--project{
     padding-top: 1em;
     padding-bottom: 1em;
@@ -196,3 +220,8 @@ li{
         padding-left: 0;
     }
 }
+
+
+.floatLeft { width: 45%; float: left; }
+.floatRight {width: 45%; float: right; }
+.container { overflow: hidden; }
